@@ -1,0 +1,21 @@
+.file-tree {
+  list-style-type: none;
+  padding-left: 20px;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.folder,
+.file {
+  padding: 5px;
+  margin: 2px;
+}
+
+.folder:before {
+  content: "📁";
+  margin-right: 5px;
+}
+
+.file:before {
+  content: "📄";
+  margin-right: 5px;
+}
